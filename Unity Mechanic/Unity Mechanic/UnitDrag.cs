@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
-public class Drag : MonoBehaviour
+public class UnitDrag : MonoBehaviour
 {
     Camera myCam;
     // Подграфика МГЕ

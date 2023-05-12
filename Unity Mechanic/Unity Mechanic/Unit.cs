@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Mechanic : MonoBehaviour
+public class Unit : MonoBehaviour
 {
     void Start()
     {

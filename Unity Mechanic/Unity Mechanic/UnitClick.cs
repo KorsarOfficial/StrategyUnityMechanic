@@ -1,8 +1,6 @@
-﻿using System;
-using UnityEngine;
-using static System.Runtime.CompilerServices.RuntimeHelpers;
+﻿using UnityEngine;
 
-public class ClicknPoint : MonoBehaviour
+public class UnitClick : MonoBehaviour
 {
     private Camera myCam;
 
