@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic.csproj",
+      "projectUniqueName": "C:\\Users\\bebru\\OneDrive\\Документы\\GitHub\\StrategyUnityMechanic\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic.csproj",
       "projectName": "Unity Mechanic",
-      "projectPath": "D:\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic.csproj",
+      "projectPath": "C:\\Users\\bebru\\OneDrive\\Документы\\GitHub\\StrategyUnityMechanic\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic.csproj",
       "packagesPath": "C:\\Users\\bebru\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity Mechanic\\Unity Mechanic\\Unity Mechanic\\obj\\",
+      "outputPath": "C:\\Users\\bebru\\OneDrive\\Документы\\GitHub\\StrategyUnityMechanic\\Unity Mechanic\\Unity Mechanic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\visual studio SDK\\NuGetPackages"

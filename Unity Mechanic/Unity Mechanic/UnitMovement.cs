@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
-
+// передвижение привязываете к обьекту (на шаблон Unity не обращать внимание)
 public class UnitMovement : MonoBehaviour
 {
     Camera myCam;

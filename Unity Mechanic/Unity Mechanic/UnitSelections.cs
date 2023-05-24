@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-
+// Выборка NPC по клавише(можете выставить свои значения) СТРОКА 33
 public class UnitSelections : MonoBehaviour
 {
 

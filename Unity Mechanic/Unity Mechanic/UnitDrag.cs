@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Перетаскивание, выделение, отделение всё тут МГЕ - работа с мышь составляющей 
+// Требуется для выделения X,Y оси 
+// прикрепляете к мэшам которые потребуются в использовании
+// ДЕБАГ ВСТРОЕН
 public class UnitDrag : MonoBehaviour
 {
     Camera myCam;

@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+// Требуется соединение мэша коллайдера под UD является дебагом
 public class UnitClick : MonoBehaviour
 {
     private Camera myCam;
