@@ -1,18 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// Перетаскивание, выделение, отделение всё тут МГЕ - работа с мышь составляющей 
-// Требуется для выделения X,Y оси 
-// прикрепляете к мэшам которые потребуются в использовании
-// ДЕБАГ ВСТРОЕН
+// Ziehen, Markieren, Trennen alles hier ist MGE - Arbeit mit der Mauskomponente 
+// Erforderlich, um die X-, Y-Achse hervorzuheben 
+// befestigen Sie es an Masham, die verwendet werden müssen
+// DEBAG EINGEBAUT
 public class UnitDrag : MonoBehaviour
 {
     Camera myCam;
-    // Подграфика МГЕ
+    
     [SerializeField]
     RectTransform boxVisual;
 
-    // Логика МГЕ
+    
     Rect selectionBox;
 
     Vector2 startPosition;
@@ -29,20 +29,20 @@ public class UnitDrag : MonoBehaviour
 
     void Update()
     {
-        // нажатие
+        // Druck
         if (Input.GetMouseButtonDown(0))
         {
             startPosition = Input.mousePosition;
             selectionBox = new Rect();
         }
-        // удержание по ось 
+        // achse halten
         if (Input.GetMouseButton(0))
         {
             endPosition = Input.mousePosition;
             DrawVisual();
             DrawSelection();
         }
-        // когда отпускаю клик
+        // wenn ich einen Klick loslasse
         if (Input.GetMouseButtonUp(0))
         {
             SelectUnits();
@@ -65,7 +65,7 @@ public class UnitDrag : MonoBehaviour
 
     void DrawSelection()
     {
-        // по оси Х
+        // X-Achse
         if (Input.mousePosition.x < startPosition.x)
         {
             selectionBox.xMin = Input.mousePosition.x;
@@ -76,7 +76,7 @@ public class UnitDrag : MonoBehaviour
             selectionBox.xMin = startPosition.x;
             selectionBox.xMax = Input.mousePosition.x;
         }
-        // по оси Y
+        // y-Achse
 
         if (Input.mousePosition.y < startPosition.y)
         {
