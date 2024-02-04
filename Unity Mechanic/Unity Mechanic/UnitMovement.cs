@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
-// передвижение привязываете к обьекту (на шаблон Unity не обращать внимание)
+// sie binden die Bewegung an ein Objekt an (achten Sie nicht auf das Unity-Muster)
 public class UnitMovement : MonoBehaviour
 {
     Camera myCam;
@@ -8,14 +8,14 @@ public class UnitMovement : MonoBehaviour
     public LayerMask ground;
 
 
-    // Start is called before the first frame update
+    // Start wird vor der ersten Frame-Aktualisierung aufgerufen
     void Start()
     {
         myCam = Camera.main;
         myAgent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
+    // Update wird einmal pro Frame aufgerufen
     void Update()
     {
         if (Input.GetMouseButtonDown(1))
