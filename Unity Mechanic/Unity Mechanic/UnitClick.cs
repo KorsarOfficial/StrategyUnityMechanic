@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-// Требуется соединение мэша коллайдера под UD является дебагом
+// Die erforderliche Mash-Collider-Verbindung unter UD ist ein Debag
 public class UnitClick : MonoBehaviour
 {
     private Camera myCam;
