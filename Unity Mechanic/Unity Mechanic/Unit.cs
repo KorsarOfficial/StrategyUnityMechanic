@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-// Прикрепляйте это к активным коллайдерам АКА объектам АКА персонажам АКА NPC
+// Befestigen Sie dies an aktiven Collidern AKA-Objekten AKA-Charakteren AKA-NPCs
 public class Unit : MonoBehaviour
 {
     void Start()
